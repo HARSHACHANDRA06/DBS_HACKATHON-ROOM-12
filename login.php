@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
 
    if(mysqli_num_rows($result) > 0){
     
-      header('location:homepage.html');
+      header('location:availability.html');
      
    }else{
       $error[] = 'incorrect email or password!';
